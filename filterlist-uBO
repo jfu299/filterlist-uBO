@@ -1,0 +1,472 @@
+!-		uBlock Origin Custom Filter List   	-----------------------------------------------
+! By: Justin Fu
+! No Warranties or Guarantees, use at your own risk
+! This filter list is not guaranteed to be frequently updated
+
+!--	Updated August 13, 2020 ----------------
+
+!-	Youtube Filter --------------------------------------------------
+
+!--- Sign in button
+www.youtube.com##.size-small.style-suggestive.ytd-masthead.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint
+
+www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
+
+!--- Translate Subtitles
+www.youtube.com##ytd-menu-navigation-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(2) > .ytd-menu-navigation-item-renderer.style-scope.yt-simple-endpoint > .ytd-menu-navigation-item-renderer.style-scope
+
+!--- Comments Title
+www.youtube.com###title
+
+!--- Comments like and dislike
+www.youtube.com###toolbar
+
+!--- Create Comment
+www.youtube.com###simple-box > .ytd-comments-header-renderer.style-scope
+
+!--- Create Video
+www.youtube.com##ytd-topbar-menu-button-renderer.style-default.ytd-masthead.style-scope:nth-of-type(1)
+
+!--- Add to Playlist
+www.youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(2)
+
+!--- Add to queue Hover Overlay
+www.youtube.com###hover-overlays
+
+!---Youtube Miniplayer Button
+www.youtube.com##.ytp-button.ytp-miniplayer-button
+
+!--- Youtube Previous and Next Buttons
+www.youtube.com##.ytp-button.ytp-prev-button
+
+www.youtube.com##.ytp-button.ytp-next-button
+
+www.youtube.com##.ytp-scroll-min.ytp-pause-overlay
+
+!--- Youtube Pop-Ups
+www.youtube.com##.ytd-popup-container.style-scope > .ytd-popup-container.style-scope
+
+!--- Mobile Youtube
+m.youtube.com###player-control-overlay > div.player-controls-content > div.player-controls-middle.center:nth-child(2) > button.icon-button:last-child
+
+m.youtube.com###player-control-overlay > div.player-controls-content > div.player-controls-middle.center:nth-child(2) > button.icon-button.icon-disable:first-child
+
+m.youtube.com###header-bar > header.mobile-topbar-header.cbox > div.mobile-topbar-header-content.non-search-mode.cbox:last-child > div.mobile-topbar-header-sign-in-button:last-child
+
+m.youtube.com###header-bar > header.mobile-topbar-header.cbox > div.mobile-topbar-header-content.non-search-mode.cbox:last-child > ytm-topbar-menu-button-renderer:last-child
+
+m.youtube.com###app > div.page-container:nth-child(3) > ytm-watch > ytm-single-column-watch-next-results-renderer.watch-content:last-child > ytm-item-section-renderer.scwnr-content:nth-child(2) > lazy-list > ytm-slim-video-metadata-renderer.item > ytm-slim-owner-renderer.slim-video-metadata-collapsed:last-child > div.slim-owner-subscribe-button.cbox:nth-child(2) > c3-material-button.button-renderer.compact
+
+m.youtube.com###comment-section\:4 > ytm-comment-simplebox-renderer.section:first-child
+
+m.youtube.com###app > div.page-container:nth-child(3) > ytm-watch > ytm-single-column-watch-next-results-renderer.watch-content:last-child > ytm-item-section-renderer.scwnr-content:nth-child(2) > lazy-list > ytm-slim-video-metadata-renderer.item > ytm-slim-owner-renderer:nth-child(4) > div.slim-owner-subscribe-button.cbox:nth-child(2) > c3-material-button.button-renderer.compact
+
+m.youtube.com###comment-section\:d > ytm-comment-simplebox-renderer.section:first-child
+
+m.youtube.com###player-control-overlay > div.player-controls-content > div.player-controls-middle.center:nth-child(2) > button.icon-button:first-child
+
+m.youtube.com##ytm-comment-simplebox-renderer.section
+
+!--------------------
+
+||ytimg.com/yts/swfbin/player-*/endscreen.swf$object-subrequest,domain=youtube.com
+
+youtube.com##.html5-endscreen-content
+
+youtube.com##.html5-endscreen
+
+/watch_autoplayrenderer.js$script,domain=youtube.com
+
+/annotations_module.js$script,domain=youtube.com
+
+/endscreen.js$script,domain=youtube.com
+
+/watch_autoplayrenderer.js$script,important,domain=youtube.com
+
+/annotations_module.js$script,important,domain=youtube.com
+
+/endscreen.js$script,important,domain=youtube.com
+
+youtube.com###head.ytd-compact-autoplay-renderer
+
+youtube.com##.checkbox-on-off
+
+youtube.com##.watch-sidebar-head
+
+m.youtube.com##.ytm-autonav-bar
+
+##.ytp-pause-overlay
+
+youtube.com###dismissable:has-text(Free with Ads)
+
+youtube.com##ytd-primetime-promo-renderer
+
+youtube.com##ytd-rich-section-renderer:has-text(Recommended movies)
+
+youtube.com##ytd-rich-section-renderer:has-text(Latest YouTube posts)
+
+youtube.com##ytd-rich-section-renderer:has-text(What did you think of this video?)
+
+youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
+
+!-	Reddit Filter --------------------------------------------------
+
+reddit.com##.TopNav-promoButton
+
+reddit.com###container > div.XPromoPopup.m-active
+
+www.reddit.com/#%23.promotedlink
+
+www.reddit.com##.promotedlink
+
+||redditstatic.com/recommended-link.*.js
+
+reddit.com##.size-compact.Post:has([class*="promoted"])
+
+reddit.com##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
+
+reddit.com##div[class][data-before-content="advertisement"]:not([id])
+
+reddit.com##div[id*="sidebar"][data-before-content="promoted"]:upward(3)
+
+reddit.com##div[class][data-before-content="promoted"]:not([id])
+
+reddit.com##.m-redesign.m-compact.LegacyAnnouncement
+
+reddit.com##.m-animated.XPromoPopup__content
+
+reddit.com##.m-animated.XPromoPopup__overlay
+
+reddit.com##.NavFrame > .m-slideIn.XPromoPill
+
+reddit.com##.XPromoInFeed
+
+reddit.com##.NavFrame > .XPromoPill
+
+old.reddit.com##.premium-banner
+
+old.reddit.com##.listingsignupbar.infobar
+
+reddit.com###redesign-beta-optin-btn
+
+old.reddit.com###redesign-beta-optin-btn
+
+reddit.com##h2:has-text(/^Updates from reddit$/):upward(1)
+
+reddit.com##h3:has-text(/^Top broadcast right now$/):upward(7)
+
+reddit.com###TrendingPostsContainer
+
+reddit.com##button:has-text(/^Try Now$/):upward(4)
+
+reddit.com##h2:has-text(/^Trending Communities$/):upward(6)
+
+!-	Google Filter ----------------------------------------------
+
+drive.google.com##.Yb-Il-d-rc.Kk7lMc-QWPxkf-d.Yb-Il-d
+
+docs.google.com##.companion-app-switcher-container
+
+docs.google.com##.goog-flat-button.goog-inline-block.docs-explore-widget-button
+
+docs.google.com##.waffle-assistant-entry
+
+docs.google.com##.app-switcher-button-checked.companion-collapser-button.app-switcher-button
+
+docs.google.com##.goog-inline-block.docs-navigation-tab-button.outline-refresh.docs-material
+
+docs.google.com##.left-sidebar-container-animation.docs-ui-unprintable.left-sidebar-container
+
+mail.google.com##.aj5.J-KU-Jg-Zc.J-KU-Jg
+
+mail.google.com##.aT5-aOt-I-Jp.brC-dA-I.aT5-aOt-I
+
+mail.google.com###lZwQje
+
+mail.google.com##.YX.aZ6.akc
+
+mail.google.com##.aeQ
+
+sites.google.com##.HB15Rb
+
+!-	DuckDuckGo Filter ----------------------------------------------
+
+duckduckgo.com##.js-feedback-btn-wrap
+
+duckduckgo.com##.badge-link--newsletter.badge-link--thumbnail.js-badge-link.badge-link--serp.badge-link
+
+duckduckgo.com##.header__label.showcase.header--aside__item > .js-hl-button.header__clickable
+
+duckduckgo.com##.social.header__label.header--aside__social.header--aside__item > .js-hl-button.header__clickable
+
+duckduckgo.com##.footer_cards
+
+duckduckgo.com##.footer__column
+
+!-	Quizlet Filter -------------------------------------------------
+
+quizlet.com/a/i/upgrade/skyscraper_variant.UVvC.png$image
+
+quizlet.com##.StickySkyscraperAdz
+
+quizlet.com##.SignupWallInline-container
+
+quizlet.com/a/i/signupwall/inline_decoration.f8Rz.png$image
+
+quizlet.com##.SignupWallInline
+
+quizlet.com###SetPageFooterAdTarget
+
+quizlet.com##.SetPageStickyBanner-body
+
+quizlet.com##.SiteHeaderChiclet
+
+quizlet.com##.ModeLayout-ad
+
+quizlet.com##.SiteAd--centerAlign.SiteAd--BANNER.SiteAd--SetEmbeddedStripFlexiNewDesignControl.SiteAd
+
+quizlet.com###dfp-SetEmbeddedStripFlexiNewDesignVariant-heading
+
+quizlet.com##.SiteAd--centerAlign.SiteAd--.SiteAd--SetEmbeddedStripFlexiNewDesignVariant.SiteAd
+
+quizlet.com##.SetPage-adSkyscrapper.SetPage-adz
+
+quizlet.com##.SetPage-adDynamic.SetPage-adz
+
+quizlet.com##.UpsellModalMessage
+
+quizlet.com##div.UpsellModalFeature:nth-of-type(2)
+
+quizlet.com##div.UpsellModalFeature:nth-of-type(3)
+
+quizlet.com##.UIModalHeader
+
+quizlet.com##div.UpsellModalFeature:nth-of-type(5)
+
+quizlet.com##div.UpsellModalFeature:nth-of-type(4)
+
+quizlet.com##.is-visible.is-included.UIModal-backdrop
+
+quizlet.com##.SetPage-superiorAdz.SetPage-adz
+
+quizlet.com##.StickyAdz
+
+quizlet.com##.SetPage-inferiorAdz.SetPage-adz
+
+quizlet.com##.AdHeading-upgradePrice
+
+quizlet.com##.AdHeading-removeLink > .UILink > span
+
+quizlet.com###upgrade-upsell > .SettingsBox-box
+
+quizlet.com###upgrade-upsell > .SettingsBox-title
+
+quizlet.com##.SiteAd--centerAlign.SiteAd--.SiteAd--SetPageEmbedDesktopMulti01.SiteAd
+
+quizlet.com##.is-open.is-gray.UIModal-container.UIModal
+
+quizlet.com##.SiteNav-menuItemNotification
+
+quizlet.com##div.SiteHeader-userDropdownOptionSection:nth-of-type(2) > span.UIMenuItem:nth-of-type(2) > .UILink > .UIMenuItem-inner
+
+quizlet.com##div.SiteHeader-userDropdownOptionSection:nth-of-type(3) > span.UIMenuItem:nth-of-type(1) > .UILink > .UIMenuItem-inner
+
+quizlet.com##div.SiteHeader-userDropdownOptionSection:nth-of-type(3) > span.UIMenuItem:nth-of-type(2) > .UILink > .UIMenuItem-inner
+
+quizlet.com##div.SiteHeader-userDropdownOptionSection:nth-of-type(2) > span.UIMenuItem:nth-of-type(1) > .UILink > .UIMenuItem-inner
+
+quizlet.com##div.SiteNav-section:nth-of-type(1) > div.SiteNav-menuItem:nth-of-type(2) > .UIMenuItem > .UILink > .UIMenuItem-inner
+
+quizlet.com##div.SiteNav-section:nth-of-type(3)
+
+quizlet.com##.ClassPageBanner-card
+
+quizlet.com##.ClassPageHeaderJoinLink
+
+quizlet.com##.SiteNav-socialIcons
+
+quizlet.com###night-theme-setting > .SettingsBox-box
+
+quizlet.com###night-theme-setting > .SettingsBox-title
+
+quizlet.com###night-theme-setting
+
+quizlet.com###facebook-link
+
+quizlet.com##.DashboardPage-adz
+
+quizlet.com##.UIBannerNew-body
+
+quizlet.com##.RichTextUpsellModal-productFeature.UIDiv
+
+quizlet.com##.SiteBanner-padding
+
+!-	Quizizz Filter --------------------------------------------------
+
+quizizz.com##.modal-mask
+
+quizizz.com##.modal-container
+
+quizizz.com##.home-hero
+
+quizizz.com##.solo-quizzes
+
+quizizz.com##.featured-solo-quizzes
+
+quizizz.com##.proceed-game-background
+
+quizizz.com##.avatar
+
+quizizz.com##.players-list
+
+!-	Spark Notes Filter --------------------------------------------------
+
+www.sparknotes.com##.ad-container
+
+www.sparknotes.com##.rect-container
+
+www.sparknotes.com##.right_rail
+
+www.sparknotes.com##.social-unit--interior.social-unit--desktop > .social-unit
+
+www.sparknotes.com##.layout-wrapper-2018__column--right-rail.layout-wrapper-2018__column
+
+www.sparknotes.com##.bn-purchase-module
+
+www.sparknotes.com##.more-like-this
+
+www.sparknotes.com##.js-global-banner.global-banner
+
+www.sparknotes.com##li.ui-only.nav-item--secondary.nav-item:nth-of-type(2) > .js-link--sign-in.nav-link--secondary.nav-link
+
+!-	Shmoop Filter --------------------------------------------------
+
+www.shmoop.com##.txt-md-left.txt-center.bg-inner-pink.inner-contained.bg-gray-light.padding-top-4x.page-cta
+
+||www.shmoop.com/pub/static/version1582920535/frontend/Shmoop/default/en_US/images/logo-blue.svg$image
+
+www.shmoop.com##.md-up.footer-nav > div:nth-of-type(1) > .footer-logo > .pagebuilder-column-group > .pagebuilder-column > div > p > [href="/subscriptions/plans"]
+
+www.shmoop.com##.md-up.footer-nav > div:nth-of-type(1) > .footer-logo > .pagebuilder-column-group
+
+www.shmoop.com##.test-no-ads
+
+www.shmoop.com##.account-links
+
+www.shmoop.com##.page-bottom-cta
+
+www.shmoop.com##.newsletter.block
+
+!-	Britannica Filter --------------------------------------------------
+
+www.britannica.com##.pl-80.p-15
+
+www.britannica.com##.grid-sm-ad-300
+
+www.britannica.com###marketing-RIGHT_RAIL_MODULE
+
+www.britannica.com##.marketing-content.marketing-RIGHT_RAIL_MODULE
+
+!-	Khan Academy Filter --------------------------------------------------
+
+ww.khanacademy.org##._104gogl7
+
+www.khanacademy.org##._pnujn8l
+
+www.khanacademy.org##.above-header.urgent-wrapper
+
+www.khanacademy.org##._mrzh6jy
+
+www.khanacademy.org##._1r6ejgs
+
+www.khanacademy.org##._1lfgscds
+
+www.khanacademy.org##._1rh3umcd
+
+www.khanacademy.org##._19tdiqu
+
+www.khanacademy.org##a._19ujcxk:nth-of-type(3) > svg > path
+
+www.khanacademy.org##._1c07mee
+
+www.khanacademy.org##._gkt786u
+
+www.khanacademy.org##.show-label.soft-transition.more-questions
+
+www.khanacademy.org##._rngbhz
+
+!-	EasyBib Filter --------------------------------------------------
+
+www.easybib.com##.fVprzo.styles__SideFrame-s1sdaikp-1
+
+www.easybib.com##.hDmwjl.styles__SideView-s1sdaikp-2
+
+www.easybib.com##.fhROWi.styles__SideFrame-sc-1sdaikp-1
+
+www.easybib.com##.kcDWRu.styles__SideView-sc-1sdaikp-2
+
+www.easybib.com##.hdsQen.sc-fjmCvl
+
+www.easybib.com##div.home-page:nth-of-type(4)
+
+!-	News Filter --------------------------------------------------
+
+www.foxnews.com##.collection-trending.collection
+
+www.foxnews.com##.collection-radar.collection-multi.collection
+
+www.foxnews.com##.commenting-nation-promo
+
+www.foxnews.com##.desktop.sidebar-primary.sidebar-article.sidebar
+
+www.foxnews.com##.more-on-this
+
+www.foxnews.com##[href="https://www.foxnews.com/apps-products"]www.foxnews.com###spcv_conversation
+
+news.google.com##.SbZred.Xw9d0
+
+www.politico.com##.is-masoned.shifty-content.predetermined.pos-beta.format-s.story-interrupt
+
+www.washingtonpost.com###slug_leaderboard
+
+www.washingtonpost.com##.flex-column.flex.hide-for-print.grid-item--cols-lg-4.mt-md-l.grid-item--cols-md-12.grid-item--cols-sm-12.grid-item
+
+www.nytimes.com##.css-16l7vy9
+
+!-	Pi-hole Admin Console Filter --------------------------------------------------
+
+pi.hole##li:nth-of-type(4) > [href="https://pi-hole.net/donate/"]
+
+pi.hole##.col-sm-6.col-xs-12
+
+pi.hole##.user-footer
+
+pi.hole##li:nth-of-type(14) > [href="https://pi-hole.net/donate/"]
+
+!-	Miscellaneous Filters --------------------------------------------------
+
+newsela.com##.styles__recommendedContent___22lV6
+
+newsela.com##div.styles__toolTip___KQI75.styles__iconContainer___2sqc2:nth-of-type(2) > span > .styles__tooltipCircleButton___3OTeO.styles__iconOnly___3UL3x.styles__secondary___38Qfo.styles__rounded___2MZEv.styles__button___2mIfC
+
+www.dictionary.com##.e1su27ci0.css-kxkt50
+
+www.symbolab.com##.print-hide.sidebar-content
+
+dcp.betterchinese.com###ext-element-469
+
+dcp.betterchinese.com###ext-compOpenEventWindow-1
+
+dcp.betterchinese.com###ext-mask-2
+
+my.noodletools.com###createPile > .modal-content > .modal-footer > button.btn-sm.btn-default.btn:nth-of-type(2)
+
+www.answers.com##.adhesion_dom.html.module
+
+www.answers.com###right
+
+connvoters.com##body > center > table > tbody > tr > td:nth-of-type(1)
+
+||www.dnsleaktest.com/assets/img/cute-box-image.png$image
+
+!-----------------------------------------------------------------------------------------------------
