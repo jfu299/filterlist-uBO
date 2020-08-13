@@ -1,0 +1,110 @@
+!-		uBlock Origin Custom Filter List - Youtube Filter Only   	-----------------------------------------------
+! By: Justin Fu
+! No Warranties or Guarantees, use at your own risk
+! This filter list is not guaranteed to be frequently updated
+
+!--	Updated August 13, 2020 ----------------
+
+!-	Youtube Filter --------------------------------------------------
+
+!--- Sign in button
+www.youtube.com##.size-small.style-suggestive.ytd-masthead.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint
+
+www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
+
+!--- Translate Subtitles
+www.youtube.com##ytd-menu-navigation-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(2) > .ytd-menu-navigation-item-renderer.style-scope.yt-simple-endpoint > .ytd-menu-navigation-item-renderer.style-scope
+
+!--- Comments Title
+www.youtube.com###title
+
+!--- Comments like and dislike
+www.youtube.com###toolbar
+
+!--- Create Comment
+www.youtube.com###simple-box > .ytd-comments-header-renderer.style-scope
+
+!--- Create Video
+www.youtube.com##ytd-topbar-menu-button-renderer.style-default.ytd-masthead.style-scope:nth-of-type(1)
+
+!--- Add to Playlist
+www.youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(2)
+
+!--- Add to queue Hover Overlay
+www.youtube.com###hover-overlays
+
+!---Youtube Miniplayer Button
+www.youtube.com##.ytp-button.ytp-miniplayer-button
+
+!--- Youtube Previous and Next Buttons
+www.youtube.com##.ytp-button.ytp-prev-button
+
+www.youtube.com##.ytp-button.ytp-next-button
+
+www.youtube.com##.ytp-scroll-min.ytp-pause-overlay
+
+!--- Youtube Pop-Ups
+www.youtube.com##.ytd-popup-container.style-scope > .ytd-popup-container.style-scope
+
+!--- Mobile Youtube
+m.youtube.com###player-control-overlay > div.player-controls-content > div.player-controls-middle.center:nth-child(2) > button.icon-button:last-child
+
+m.youtube.com###player-control-overlay > div.player-controls-content > div.player-controls-middle.center:nth-child(2) > button.icon-button.icon-disable:first-child
+
+m.youtube.com###header-bar > header.mobile-topbar-header.cbox > div.mobile-topbar-header-content.non-search-mode.cbox:last-child > div.mobile-topbar-header-sign-in-button:last-child
+
+m.youtube.com###header-bar > header.mobile-topbar-header.cbox > div.mobile-topbar-header-content.non-search-mode.cbox:last-child > ytm-topbar-menu-button-renderer:last-child
+
+m.youtube.com###app > div.page-container:nth-child(3) > ytm-watch > ytm-single-column-watch-next-results-renderer.watch-content:last-child > ytm-item-section-renderer.scwnr-content:nth-child(2) > lazy-list > ytm-slim-video-metadata-renderer.item > ytm-slim-owner-renderer.slim-video-metadata-collapsed:last-child > div.slim-owner-subscribe-button.cbox:nth-child(2) > c3-material-button.button-renderer.compact
+
+m.youtube.com###comment-section\:4 > ytm-comment-simplebox-renderer.section:first-child
+
+m.youtube.com###app > div.page-container:nth-child(3) > ytm-watch > ytm-single-column-watch-next-results-renderer.watch-content:last-child > ytm-item-section-renderer.scwnr-content:nth-child(2) > lazy-list > ytm-slim-video-metadata-renderer.item > ytm-slim-owner-renderer:nth-child(4) > div.slim-owner-subscribe-button.cbox:nth-child(2) > c3-material-button.button-renderer.compact
+
+m.youtube.com###comment-section\:d > ytm-comment-simplebox-renderer.section:first-child
+
+m.youtube.com###player-control-overlay > div.player-controls-content > div.player-controls-middle.center:nth-child(2) > button.icon-button:first-child
+
+m.youtube.com##ytm-comment-simplebox-renderer.section
+
+||ytimg.com/yts/swfbin/player-*/endscreen.swf$object-subrequest,domain=youtube.com
+
+youtube.com##.html5-endscreen-content
+
+youtube.com##.html5-endscreen
+
+/watch_autoplayrenderer.js$script,domain=youtube.com
+
+/annotations_module.js$script,domain=youtube.com
+
+/endscreen.js$script,domain=youtube.com
+
+/watch_autoplayrenderer.js$script,important,domain=youtube.com
+
+/annotations_module.js$script,important,domain=youtube.com
+
+/endscreen.js$script,important,domain=youtube.com
+
+youtube.com###head.ytd-compact-autoplay-renderer
+
+youtube.com##.checkbox-on-off
+
+youtube.com##.watch-sidebar-head
+
+m.youtube.com##.ytm-autonav-bar
+
+##.ytp-pause-overlay
+
+youtube.com###dismissable:has-text(Free with Ads)
+
+youtube.com##ytd-primetime-promo-renderer
+
+youtube.com##ytd-rich-section-renderer:has-text(Recommended movies)
+
+youtube.com##ytd-rich-section-renderer:has-text(Latest YouTube posts)
+
+youtube.com##ytd-rich-section-renderer:has-text(What did you think of this video?)
+
+youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
+
+!-----------------------------------------------------------------------------------------------------
