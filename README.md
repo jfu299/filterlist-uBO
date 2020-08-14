@@ -2,7 +2,7 @@ Custom Filter Lists for uBO (uBlock Origin)
 
 By: Justin Fu
 
-Last Updated: August 13, 2020
+Last Updated: August 14, 2020
 
 Main Filter List:
 
