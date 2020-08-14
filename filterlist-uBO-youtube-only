@@ -1,9 +1,9 @@
 !-		uBlock Origin Custom Filter List - Youtube Filter Only   	-----------------------------------------------
 ! By: Justin Fu
-! No Warranties or Guarantees, use at your own risk
-! This filter list is not guaranteed to be frequently updated
+! USE AT YOUR OWN RISK
+! This filter list is not guaranteed to be frequently updated or maintained
 
-!--	Updated August 13, 2020 ----------------
+!--	Updated August 14, 2020 ----------------
 
 !-	Youtube Filter --------------------------------------------------
 
@@ -67,6 +67,8 @@ m.youtube.com###player-control-overlay > div.player-controls-content > div.playe
 
 m.youtube.com##ytm-comment-simplebox-renderer.section
 
+!--------------------
+
 ||ytimg.com/yts/swfbin/player-*/endscreen.swf$object-subrequest,domain=youtube.com
 
 youtube.com##.html5-endscreen-content
@@ -106,5 +108,15 @@ youtube.com##ytd-rich-section-renderer:has-text(Latest YouTube posts)
 youtube.com##ytd-rich-section-renderer:has-text(What did you think of this video?)
 
 youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
+
+youtube.com##ytd-rich-section-renderer:has-text(Get the latest information from the CDC about COVID-19)
+
+youtube.com##ytd-rich-section-renderer:has-text(Featured)
+
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
+
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
 
 !-----------------------------------------------------------------------------------------------------
