@@ -512,6 +512,10 @@ www.answers.com###right
 
 connvoters.com##body > center > table > tbody > tr > td:nth-of-type(1)
 
+mrwalach.com##.credit
+
 ||www.dnsleaktest.com/assets/img/cute-box-image.png$image
+
+www.dnsleaktest.com##[src="/assets/img/cute-box-image.png"]
 
 !-----------------------------------------------------------------------------------------------------
