@@ -6,72 +6,61 @@
 ! USE AT YOUR OWN RISK
 ! This filter list is not guaranteed to be frequently updated or maintained
 
-!--	Updated August 14, 2020 ----------------
+!--	Updated August 16, 2020 ----------------
 
 !-	Youtube Filter --------------------------------------------------
 
 !--- Sign in button
-www.youtube.com##.size-small.style-suggestive.ytd-masthead.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint
+youtube.com##.size-small.style-suggestive.ytd-masthead.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint
 
-www.youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
+youtube.com##ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
 
 !--- Translate Subtitles
-www.youtube.com##ytd-menu-navigation-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(2) > .ytd-menu-navigation-item-renderer.style-scope.yt-simple-endpoint > .ytd-menu-navigation-item-renderer.style-scope
+youtube.com##ytd-menu-navigation-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(2) > .ytd-menu-navigation-item-renderer.style-scope.yt-simple-endpoint > .ytd-menu-navigation-item-renderer.style-scope
 
 !--- Comments Title
-www.youtube.com###title
+youtube.com###title
 
 !--- Comments like and dislike
-www.youtube.com###toolbar
+youtube.com###reply-button-end
+
+youtube.com###dislike-button
+
+youtube.com###like-button
+
+youtube.com###vote-count-middle
+
+youtube.com###creator-heart-button
 
 !--- Create Comment
-www.youtube.com###simple-box > .ytd-comments-header-renderer.style-scope
+youtube.com###simple-box > .ytd-comments-header-renderer.style-scope
 
 !--- Create Video
-www.youtube.com##ytd-topbar-menu-button-renderer.style-default.ytd-masthead.style-scope:nth-of-type(1)
+youtube.com##ytd-topbar-menu-button-renderer.style-default.ytd-masthead.style-scope:nth-of-type(1)
 
 !--- Add to Playlist
-www.youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(2)
+youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(2)
 
 !--- Add to queue Hover Overlay
-www.youtube.com###hover-overlays
+youtube.com###hover-overlays
 
 !---Youtube Miniplayer Button
-www.youtube.com##.ytp-button.ytp-miniplayer-button
+youtube.com##.ytp-button.ytp-miniplayer-button
 
 !--- Youtube Previous and Next Buttons
-www.youtube.com##.ytp-button.ytp-prev-button
+youtube.com##.ytp-button.ytp-prev-button
 
-www.youtube.com##.ytp-button.ytp-next-button
+youtube.com##.ytp-button.ytp-next-button
 
-www.youtube.com##.ytp-scroll-min.ytp-pause-overlay
+youtube.com##.ytp-scroll-min.ytp-pause-overlay
 
 !--- Youtube Pop-Ups
-www.youtube.com##.ytd-popup-container.style-scope > .ytd-popup-container.style-scope
+youtube.com##.ytd-popup-container.style-scope > .ytd-popup-container.style-scope
 
-!--- Mobile Youtube
-m.youtube.com###player-control-overlay > div.player-controls-content > div.player-controls-middle.center:nth-child(2) > button.icon-button:last-child
+!--- Join Button (Next to Subscribe Button)
+youtube.com###sponsor-button
 
-m.youtube.com###player-control-overlay > div.player-controls-content > div.player-controls-middle.center:nth-child(2) > button.icon-button.icon-disable:first-child
-
-m.youtube.com###header-bar > header.mobile-topbar-header.cbox > div.mobile-topbar-header-content.non-search-mode.cbox:last-child > div.mobile-topbar-header-sign-in-button:last-child
-
-m.youtube.com###header-bar > header.mobile-topbar-header.cbox > div.mobile-topbar-header-content.non-search-mode.cbox:last-child > ytm-topbar-menu-button-renderer:last-child
-
-m.youtube.com###app > div.page-container:nth-child(3) > ytm-watch > ytm-single-column-watch-next-results-renderer.watch-content:last-child > ytm-item-section-renderer.scwnr-content:nth-child(2) > lazy-list > ytm-slim-video-metadata-renderer.item > ytm-slim-owner-renderer.slim-video-metadata-collapsed:last-child > div.slim-owner-subscribe-button.cbox:nth-child(2) > c3-material-button.button-renderer.compact
-
-m.youtube.com###comment-section\:4 > ytm-comment-simplebox-renderer.section:first-child
-
-m.youtube.com###app > div.page-container:nth-child(3) > ytm-watch > ytm-single-column-watch-next-results-renderer.watch-content:last-child > ytm-item-section-renderer.scwnr-content:nth-child(2) > lazy-list > ytm-slim-video-metadata-renderer.item > ytm-slim-owner-renderer:nth-child(4) > div.slim-owner-subscribe-button.cbox:nth-child(2) > c3-material-button.button-renderer.compact
-
-m.youtube.com###comment-section\:d > ytm-comment-simplebox-renderer.section:first-child
-
-m.youtube.com###player-control-overlay > div.player-controls-content > div.player-controls-middle.center:nth-child(2) > button.icon-button:first-child
-
-m.youtube.com##ytm-comment-simplebox-renderer.section
-
-!--------------------
-
+!--- Disable Autoplay and Endcards
 ||ytimg.com/yts/swfbin/player-*/endscreen.swf$object-subrequest,domain=youtube.com
 
 youtube.com##.html5-endscreen-content
@@ -100,6 +89,29 @@ m.youtube.com##.ytm-autonav-bar
 
 ##.ytp-pause-overlay
 
+!--- Mobile Youtube
+m.youtube.com###player-control-overlay > div.player-controls-content > div.player-controls-middle.center:nth-child(2) > button.icon-button:last-child
+
+m.youtube.com###player-control-overlay > div.player-controls-content > div.player-controls-middle.center:nth-child(2) > button.icon-button.icon-disable:first-child
+
+m.youtube.com###header-bar > header.mobile-topbar-header.cbox > div.mobile-topbar-header-content.non-search-mode.cbox:last-child > div.mobile-topbar-header-sign-in-button:last-child
+
+m.youtube.com###header-bar > header.mobile-topbar-header.cbox > div.mobile-topbar-header-content.non-search-mode.cbox:last-child > ytm-topbar-menu-button-renderer:last-child
+
+m.youtube.com###app > div.page-container:nth-child(3) > ytm-watch > ytm-single-column-watch-next-results-renderer.watch-content:last-child > ytm-item-section-renderer.scwnr-content:nth-child(2) > lazy-list > ytm-slim-video-metadata-renderer.item > ytm-slim-owner-renderer.slim-video-metadata-collapsed:last-child > div.slim-owner-subscribe-button.cbox:nth-child(2) > c3-material-button.button-renderer.compact
+
+m.youtube.com###comment-section\:4 > ytm-comment-simplebox-renderer.section:first-child
+
+m.youtube.com###app > div.page-container:nth-child(3) > ytm-watch > ytm-single-column-watch-next-results-renderer.watch-content:last-child > ytm-item-section-renderer.scwnr-content:nth-child(2) > lazy-list > ytm-slim-video-metadata-renderer.item > ytm-slim-owner-renderer:nth-child(4) > div.slim-owner-subscribe-button.cbox:nth-child(2) > c3-material-button.button-renderer.compact
+
+m.youtube.com###comment-section\:d > ytm-comment-simplebox-renderer.section:first-child
+
+m.youtube.com###player-control-overlay > div.player-controls-content > div.player-controls-middle.center:nth-child(2) > button.icon-button:first-child
+
+m.youtube.com##ytm-comment-simplebox-renderer.section
+
+!--------------------
+
 youtube.com###dismissable:has-text(Free with Ads)
 
 youtube.com##ytd-primetime-promo-renderer
@@ -120,6 +132,14 @@ youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-ty
 
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
 
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
+
+youtube.com###channel-subscription-promo-in-feed
+
+youtube.com###clarify-box
+
+youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
 
 !-----------------------------------------------------------------------------------------------------
