@@ -194,9 +194,27 @@ reddit.com##button:has-text(/^Try Now$/):upward(4)
 
 reddit.com##h2:has-text(/^Trending Communities$/):upward(6)
 
+reddit.com##.OuterBannerContainer
+
+reddit.com##[id^="CommentAwardBadges--"]
+
 !-	Google Filter ----------------------------------------------
 
 drive.google.com##.Yb-Il-d-rc.Kk7lMc-QWPxkf-d.Yb-Il-d
+
+drive.google.com###\:75 > .a-S-x-j.a-s-tb-pa > .NtyuW.PEfnhb > .i6Fqyc
+
+drive.google.com##.BJdrke
+
+drive.google.com##.GLhshf
+
+drive.google.com##.a-xf-vzJc7b-To
+
+drive.google.com##.U0FWac
+
+drive.google.com##.tb9Ntf
+
+drive.google.com###\:5d > .a-S-x-j.a-s-tb-pa > .PEfnhb
 
 docs.google.com##.companion-app-switcher-container
 
@@ -218,6 +236,8 @@ mail.google.com##.aj3.pp.aND
 
 mail.google.com##.YX.aZ6.akc
 
+mail.google.com##.aT5-aOt-I-Jp.brC-dA-I.aT5-aOt-I
+
 sites.google.com##.HB15Rb
 
 !-	DuckDuckGo Filter ----------------------------------------------
@@ -233,6 +253,30 @@ duckduckgo.com##.social.header__label.header--aside__social.header--aside__item 
 duckduckgo.com##.footer_cards
 
 duckduckgo.com##.footer__column
+
+duckduckgo.com##.feedback-prompt
+
+duckduckgo.com##.nav-menu__list > ul:nth-of-type(5)
+
+duckduckgo.com##.footer__links
+
+duckduckgo.com##.footer__text
+
+duckduckgo.com##.js-footer-feedback-btn-wrap
+
+duckduckgo.com##.nav-menu__list > ul:nth-of-type(4)
+
+duckduckgo.com##.nav-menu__list > ul:nth-of-type(3)
+
+duckduckgo.com##.nav-menu__list > ul:nth-of-type(2)
+
+duckduckgo.com##.onboarding-ed__arrow-teaser__arrow-wrapper
+
+duckduckgo.com##.onboarding-ed__arrow-teaser__alpinist
+
+duckduckgo.com##.js-onboarding-ed-teaser.onboarding-ed__arrow-teaser
+
+duckduckgo.com##.js-tag-item-link.tag-home__link
 
 !-	Quizlet Filter -------------------------------------------------
 
@@ -476,13 +520,25 @@ www.nytimes.com##.css-16l7vy9
 
 duckduckgo.com##.britannica-search-results.b2
 
-www.google.com##.mnr-c.britannica-search-results.b2
+google.com##.mnr-c.britannica-search-results.b2
 
-www.greenwichschools.org##.kami-drive-viewer-toolstrip-open-and-openwith
+greenwichschools.org##.kami-drive-viewer-toolstrip-open-and-openwith
 
 portal.ct.gov##.kami-drive-viewer-toolstrip-open-and-openwith
 
 quizlet.com##.kami-drive-viewer-toolstrip-open-and-openwith
+
+greenwichschools.org##.covid-banner
+
+greenwichschools.org###select-translate
+
+greenwichschools.org###fsEl_6092 > .fsElementContent
+
+greenwichschools.org###fsPoweredByFinalsite
+
+greenwichschools.org###fsEl_596 > .fsElementContent > nav > .fsNavLevel1
+
+greenwichschools.org###fsEl_6107
 
 !-	Schoology Filter --------------------------------------------------
 
@@ -535,5 +591,9 @@ mrwalach.com##.credit
 ||www.dnsleaktest.com/assets/img/cute-box-image.png$image
 
 www.dnsleaktest.com##[src="/assets/img/cute-box-image.png"]
+
+ct-greenwich.myfollett.com##tr:nth-of-type(6) > .labelCell
+
+||ct-greenwich.myfollett.com/aspen/images/bg-students.jpg$image
 
 !-----------------------------------------------------------------------------------------------------
