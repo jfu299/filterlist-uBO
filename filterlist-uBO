@@ -6,7 +6,7 @@
 ! USE AT YOUR OWN RISK
 ! This filter list is not guaranteed to be frequently updated or maintained
 
-!--	Updated August 18, 2020 ----------------
+!--	Updated August 19, 2020 ----------------
 
 !-	Youtube Filter --------------------------------------------------
 
@@ -540,6 +540,10 @@ greenwichschools.org###fsEl_596 > .fsElementContent > nav > .fsNavLevel1
 
 greenwichschools.org###fsEl_6107
 
+ct-greenwich.myfollett.com##tr:nth-of-type(6) > .labelCell
+
+||ct-greenwich.myfollett.com/aspen/images/bg-students.jpg$image
+
 !-	Schoology Filter --------------------------------------------------
 
 schoology.greenwich.k12.ct.us##._pendo-launcher-badge-bottom-right_._pendo-launcher-badge_
@@ -592,8 +596,6 @@ mrwalach.com##.credit
 
 www.dnsleaktest.com##[src="/assets/img/cute-box-image.png"]
 
-ct-greenwich.myfollett.com##tr:nth-of-type(6) > .labelCell
-
-||ct-greenwich.myfollett.com/aspen/images/bg-students.jpg$image
+twitter.com##.r-zg41ew.r-1777fci.r-18u37iz.css-1dbjc4n
 
 !-----------------------------------------------------------------------------------------------------
