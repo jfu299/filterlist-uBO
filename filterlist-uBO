@@ -6,7 +6,7 @@
 ! USE AT YOUR OWN RISK
 ! This filter list is not guaranteed to be frequently updated or maintained
 
-!--	Updated August 19, 2020 ----------------
+!--	Updated August 22, 2020 ----------------
 
 !-	Youtube Filter --------------------------------------------------
 
@@ -112,6 +112,30 @@ m.youtube.com##ytm-comment-simplebox-renderer.section
 
 !--------------------
 
+m.youtube.com###dismissable:has-text(Free with Ads)
+
+m.youtube.com##ytd-primetime-promo-renderer
+
+m.youtube.com##ytd-rich-section-renderer:has-text(Recommended movies)
+
+m.youtube.com##ytd-rich-section-renderer:has-text(Latest YouTube posts)
+
+m.youtube.com##ytd-rich-section-renderer:has-text(What did you think of this video?)
+
+m.youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
+
+m.youtube.com##ytd-rich-section-renderer:has-text(Get the latest information from the CDC about COVID-19)
+
+m.youtube.com##ytd-rich-section-renderer:has-text(Featured)
+
+m.youtube.com###channel-subscription-promo-in-feed
+
+m.youtube.com###clarify-box
+
+m.youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
+
+!--------------------
+
 youtube.com###dismissable:has-text(Free with Ads)
 
 youtube.com##ytd-primetime-promo-renderer
@@ -132,7 +156,7 @@ youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-ty
 
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
 
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
 
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
 
@@ -277,6 +301,42 @@ duckduckgo.com##.onboarding-ed__arrow-teaser__alpinist
 duckduckgo.com##.js-onboarding-ed-teaser.onboarding-ed__arrow-teaser
 
 duckduckgo.com##.js-tag-item-link.tag-home__link
+
+!-	Instagram Filter ----------------------------------------------
+
+instagram.com##.GZkEI.ccgHY._6E_wP.vboSt._8Rm4L
+
+instagram.com##.GZkEI.ccgHY.D_6tu.vboSt._8Rm4L
+
+instagram.com##._80tAB.yOZjD
+
+instagram.com##body > span > section > nav > div > div > section.xZ2Xk
+
+instagram.com#?#nav > div > div > section > div:-abp-has(div > div > button > div)
+
+instagram.com##._8UZ6e
+
+instagram.com##.GZkEI.ccgHY._6E_wP.vboSt._8Rm4L
+
+instagram.com##.Z_Gl2
+
+instagram.com##.GZkEI.ccgHY.D_6tu.vboSt._8Rm4L
+
+instagram.com##.bY2yH
+
+instagram.com###fb-root + div[role="presentation"]
+
+instagram.com#?#.ZUqME:-abp-has(a[href^="/accounts/emailsignup/"])
+
+instagram.com##._40dde
+
+instagram.com##._c05qa
+
+instagram.com##a[href^="https://itunes.apple.com/app/instagram/id389801252?"][role="alert"]
+
+instagram.com##a[href="/accounts/login/?next=%2F&source=mobile_nav"] + button
+
+instagram.com##.xkuux
 
 !-	Quizlet Filter -------------------------------------------------
 
