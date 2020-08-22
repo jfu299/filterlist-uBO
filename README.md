@@ -2,7 +2,7 @@ Custom Filter Lists for uBO (uBlock Origin)
 
 By: Justin Fu
 
-Use at your own risk - This filter list is not guaranteed to be frequently updated or maintained
+Use at your own risk - These filter lists are not guaranteed to be frequently updated or maintained
 
 Main Filter List:
 
