@@ -1,0 +1,50 @@
+!-		uBlock Origin Custom Filter List - Instagram Filter Only   	-----------------------------------------------
+
+!    https://github.com/jfu299/filterlist-uBO/blob/master/README.md
+!    https://raw.githubusercontent.com/jfu299/filterlist-uBO/master/filterlist-uBO-instagram-only
+
+! By: Justin Fu
+
+!--	Updated August 22, 2020 ----------------
+
+!-	Instagram Filter ----------------------------------------------
+
+instagram.com##.GZkEI.ccgHY._6E_wP.vboSt._8Rm4L
+
+instagram.com##.GZkEI.ccgHY.D_6tu.vboSt._8Rm4L
+
+instagram.com##._80tAB.yOZjD
+
+instagram.com##body > span > section > nav > div > div > section.xZ2Xk
+
+instagram.com#?#nav > div > div > section > div:-abp-has(div > div > button > div)
+
+instagram.com##._8UZ6e
+
+instagram.com##.GZkEI.ccgHY._6E_wP.vboSt._8Rm4L
+
+instagram.com##.Z_Gl2
+
+instagram.com##.GZkEI.ccgHY.D_6tu.vboSt._8Rm4L
+
+instagram.com##.bY2yH
+
+instagram.com###fb-root + div[role="presentation"]
+
+instagram.com#?#.ZUqME:-abp-has(a[href^="/accounts/emailsignup/"])
+
+instagram.com##._40dde
+
+instagram.com##._c05qa
+
+instagram.com##a[href^="https://itunes.apple.com/app/instagram/id389801252?"][role="alert"]
+
+instagram.com##a[href="/accounts/login/?next=%2F&source=mobile_nav"] + button
+
+instagram.com##.xkuux
+
+instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(2) > div.Igw0E.IwRSH.eGOV_._4EzTm:last-child > div.EcJQs
+
+instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(2) > div.Igw0E.IwRSH.eGOV_._4EzTm:last-child
+
+!-----------------------------------------------------------------------------------------------------
