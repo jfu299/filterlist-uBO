@@ -1,13 +1,15 @@
-!-		uBlock Origin Custom Filter List - Reddit Filter Only   	-----------------------------------------------
+! 		uBlock Origin Custom Filter List - Reddit Filter Only
 
 !    https://github.com/jfu299/filterlist-uBO/blob/master/README.md
 !    https://raw.githubusercontent.com/jfu299/filterlist-uBO/master/filterlist-uBO-reddit-only
 
 ! By: Justin Fu
 
-!--	Updated August 22, 2020 ----------------
+! Updated August 23, 2020
 
-!-	Reddit Filter --------------------------------------------------
+!--------------------
+
+!-	Reddit Filter ----------
 
 reddit.com##.TopNav-promoButton
 
@@ -63,5 +65,4 @@ reddit.com##.OuterBannerContainer
 
 reddit.com##[id^="CommentAwardBadges--"]
 
-!-----------------------------------------------------------------------------------------------------
-
+!--------------------
