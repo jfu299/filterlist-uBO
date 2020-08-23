@@ -2,7 +2,7 @@ Custom Filter Lists for uBO (uBlock Origin)
 
 By: Justin Fu
 
-Main Filter List:
+Main Filter List (Includes youtube filter, reddit filter, and instagram filter in addition to other filters):
 
 https://raw.githubusercontent.com/jfu299/filterlist-uBO/master/filterlist-uBO
 
