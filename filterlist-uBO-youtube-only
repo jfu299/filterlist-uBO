@@ -1,13 +1,15 @@
-!-		uBlock Origin Custom Filter List - Youtube Filter Only   	-----------------------------------------------
+! 		uBlock Origin Custom Filter List - Youtube Filter Only
 
 !    https://github.com/jfu299/filterlist-uBO/blob/master/README.md
 !    https://raw.githubusercontent.com/jfu299/filterlist-uBO/master/filterlist-uBO-youtube-only
 
 ! By: Justin Fu
 
-!--	Updated August 22, 2020 ----------------
+! Updated August 23, 2020
 
-!-	Youtube Filter --------------------------------------------------
+!--------------------
+
+!-	Youtube Filter ----------
 
 !--- Sign in button
 youtube.com##.size-small.style-suggestive.ytd-masthead.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint
@@ -109,7 +111,7 @@ m.youtube.com###player-control-overlay > div.player-controls-content > div.playe
 
 m.youtube.com##ytm-comment-simplebox-renderer.section
 
-!--------------------
+!----------
 
 m.youtube.com###dismissable:has-text(Free with Ads)
 
@@ -133,7 +135,7 @@ m.youtube.com###clarify-box
 
 m.youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
 
-!--------------------
+!----------
 
 youtube.com###dismissable:has-text(Free with Ads)
 
@@ -165,4 +167,4 @@ youtube.com###clarify-box
 
 youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
 
-!-----------------------------------------------------------------------------------------------------
+!--------------------
