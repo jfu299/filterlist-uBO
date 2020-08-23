@@ -1,0 +1,67 @@
+!-		uBlock Origin Custom Filter List - Reddit Filter Only   	-----------------------------------------------
+
+!    https://github.com/jfu299/filterlist-uBO/blob/master/README.md
+!    https://raw.githubusercontent.com/jfu299/filterlist-uBO/master/filterlist-uBO-reddit-only
+
+! By: Justin Fu
+
+!--	Updated August 22, 2020 ----------------
+
+!-	Reddit Filter --------------------------------------------------
+
+reddit.com##.TopNav-promoButton
+
+reddit.com###container > div.XPromoPopup.m-active
+
+www.reddit.com/#%23.promotedlink
+
+www.reddit.com##.promotedlink
+
+||redditstatic.com/recommended-link.*.js
+
+reddit.com##.size-compact.Post:has([class*="promoted"])
+
+reddit.com##div[id*="sidebar"][data-before-content="advertisement"]:upward(3)
+
+reddit.com##div[class][data-before-content="advertisement"]:not([id])
+
+reddit.com##div[id*="sidebar"][data-before-content="promoted"]:upward(3)
+
+reddit.com##div[class][data-before-content="promoted"]:not([id])
+
+reddit.com##.m-redesign.m-compact.LegacyAnnouncement
+
+reddit.com##.m-animated.XPromoPopup__content
+
+reddit.com##.m-animated.XPromoPopup__overlay
+
+reddit.com##.NavFrame > .m-slideIn.XPromoPill
+
+reddit.com##.XPromoInFeed
+
+reddit.com##.NavFrame > .XPromoPill
+
+old.reddit.com##.premium-banner
+
+old.reddit.com##.listingsignupbar.infobar
+
+reddit.com###redesign-beta-optin-btn
+
+old.reddit.com###redesign-beta-optin-btn
+
+reddit.com##h2:has-text(/^Updates from reddit$/):upward(1)
+
+reddit.com##h3:has-text(/^Top broadcast right now$/):upward(7)
+
+reddit.com###TrendingPostsContainer
+
+reddit.com##button:has-text(/^Try Now$/):upward(4)
+
+reddit.com##h2:has-text(/^Trending Communities$/):upward(6)
+
+reddit.com##.OuterBannerContainer
+
+reddit.com##[id^="CommentAwardBadges--"]
+
+!-----------------------------------------------------------------------------------------------------
+
