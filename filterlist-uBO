@@ -1,4 +1,4 @@
-!-		uBlock Origin Custom Filter List   	-----------------------------------------------
+! 		uBlock Origin Custom Filter List
 ! Includes youtube filter, reddit filter, and instagram filter in addition to other filters
 
 !    https://github.com/jfu299/filterlist-uBO/blob/master/README.md
@@ -6,9 +6,11 @@
 
 ! By: Justin Fu
 
-!--	Updated August 22, 2020 ----------------
+! Updated August 23, 2020
 
-!-	Youtube Filter --------------------------------------------------
+!--------------------
+
+!-	Youtube Filter ----------
 
 !--- Sign in button
 youtube.com##.size-small.style-suggestive.ytd-masthead.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint
@@ -44,7 +46,7 @@ youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.yt
 !--- Add to queue Hover Overlay
 youtube.com###hover-overlays
 
-!---Youtube Miniplayer Button
+!--- Youtube Miniplayer Button
 youtube.com##.ytp-button.ytp-miniplayer-button
 
 !--- Youtube Previous and Next Buttons
@@ -110,7 +112,7 @@ m.youtube.com###player-control-overlay > div.player-controls-content > div.playe
 
 m.youtube.com##ytm-comment-simplebox-renderer.section
 
-!--------------------
+!----------
 
 m.youtube.com###dismissable:has-text(Free with Ads)
 
@@ -134,7 +136,7 @@ m.youtube.com###clarify-box
 
 m.youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
 
-!--------------------
+!----------
 
 youtube.com###dismissable:has-text(Free with Ads)
 
@@ -166,7 +168,7 @@ youtube.com###clarify-box
 
 youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
 
-!-	Reddit Filter --------------------------------------------------
+!-	Reddit Filter ----------
 
 reddit.com##.TopNav-promoButton
 
@@ -222,7 +224,7 @@ reddit.com##.OuterBannerContainer
 
 reddit.com##[id^="CommentAwardBadges--"]
 
-!-	Google Filter ----------------------------------------------
+!-	Google Filter ----------
 
 drive.google.com##.Yb-Il-d-rc.Kk7lMc-QWPxkf-d.Yb-Il-d
 
@@ -264,7 +266,7 @@ mail.google.com##.aT5-aOt-I-Jp.brC-dA-I.aT5-aOt-I
 
 sites.google.com##.HB15Rb
 
-!-	DuckDuckGo Filter ----------------------------------------------
+!-	DuckDuckGo Filter ----------
 
 duckduckgo.com##.js-feedback-btn-wrap
 
@@ -302,7 +304,7 @@ duckduckgo.com##.js-onboarding-ed-teaser.onboarding-ed__arrow-teaser
 
 duckduckgo.com##.js-tag-item-link.tag-home__link
 
-!-	Instagram Filter ----------------------------------------------
+!-	Instagram Filter ----------
 
 instagram.com##.GZkEI.ccgHY._6E_wP.vboSt._8Rm4L
 
@@ -342,7 +344,7 @@ instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:
 
 instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(2) > div.Igw0E.IwRSH.eGOV_._4EzTm:last-child
 
-!-	Quizlet Filter -------------------------------------------------
+!-	Quizlet Filter ----------
 
 quizlet.com/a/i/upgrade/skyscraper_variant.UVvC.png$image
 
@@ -440,7 +442,9 @@ quizlet.com##.RichTextUpsellModal-productFeature.UIDiv
 
 quizlet.com##.SiteBanner-padding
 
-!-	Quizizz Filter --------------------------------------------------
+quizlet.com##.SignupWallInline-overlay
+
+!-	Quizizz Filter ----------
 
 quizizz.com##.modal-mask
 
@@ -458,7 +462,7 @@ quizizz.com##.avatar
 
 quizizz.com##.players-list
 
-!-	Spark Notes Filter --------------------------------------------------
+!-	Spark Notes Filter ----------
 
 www.sparknotes.com##.ad-container
 
@@ -478,7 +482,7 @@ www.sparknotes.com##.js-global-banner.global-banner
 
 www.sparknotes.com##li.ui-only.nav-item--secondary.nav-item:nth-of-type(2) > .js-link--sign-in.nav-link--secondary.nav-link
 
-!-	Shmoop Filter --------------------------------------------------
+!-	Shmoop Filter ----------
 
 www.shmoop.com##.txt-md-left.txt-center.bg-inner-pink.inner-contained.bg-gray-light.padding-top-4x.page-cta
 
@@ -496,7 +500,7 @@ www.shmoop.com##.page-bottom-cta
 
 www.shmoop.com##.newsletter.block
 
-!-	Britannica Filter --------------------------------------------------
+!-	Britannica Filter ----------
 
 www.britannica.com##.pl-80.p-15
 
@@ -506,7 +510,7 @@ www.britannica.com###marketing-RIGHT_RAIL_MODULE
 
 www.britannica.com##.marketing-content.marketing-RIGHT_RAIL_MODULE
 
-!-	Khan Academy Filter --------------------------------------------------
+!-	Khan Academy Filter ----------
 
 ww.khanacademy.org##._104gogl7
 
@@ -534,7 +538,7 @@ www.khanacademy.org##.show-label.soft-transition.more-questions
 
 www.khanacademy.org##._rngbhz
 
-!-	EasyBib Filter --------------------------------------------------
+!-	EasyBib Filter ----------
 
 www.easybib.com##.fVprzo.styles__SideFrame-s1sdaikp-1
 
@@ -548,7 +552,7 @@ www.easybib.com##.hdsQen.sc-fjmCvl
 
 www.easybib.com##div.home-page:nth-of-type(4)
 
-!-	News Filter --------------------------------------------------
+!-	News Filter ----------
 
 www.foxnews.com##.collection-trending.collection
 
@@ -572,7 +576,7 @@ www.washingtonpost.com##.flex-column.flex.hide-for-print.grid-item--cols-lg-4.mt
 
 www.nytimes.com##.css-16l7vy9
 
-!-	Greenwich Schools Filter --------------------------------------------------
+!-	Greenwich Schools Filter ----------
 
 ##.kami-drive-viewer-toolstrip-open-and-openwith
 
@@ -608,7 +612,7 @@ ct-greenwich.myfollett.com##tr:nth-of-type(6) > .labelCell
 
 ||ct-greenwich.myfollett.com/aspen/images/bg-students.jpg$image
 
-!-	Schoology Filter --------------------------------------------------
+!-	Schoology Filter ----------
 
 schoology.greenwich.k12.ct.us##._pendo-launcher-badge-bottom-right_._pendo-launcher-badge_
 
@@ -618,7 +622,7 @@ schoology.greenwich.k12.ct.us###home-feed-container
 
 schoology.greenwich.k12.ct.us##.util-directions-top-one-point-two-ctpIT.util-width-one-point-eight-1jZzx.util-height-one-point-eight-XPs3y.util-justify-content-center-1x8at.util-font-size-one-26ZPL.util-directions-right-point-two-3vkbs._3RmDr._1tpub.fioA9.tAI8z.USYsM.les2-._2L4PN._2JX1Q
 
-!-	Pi-hole Admin Console Filter --------------------------------------------------
+!-	Pi-hole Admin Console Filter ----------
 
 pi.hole##li:nth-of-type(4) > [href="https://pi-hole.net/donate/"]
 
@@ -628,7 +632,7 @@ pi.hole##.user-footer
 
 pi.hole##li:nth-of-type(14) > [href="https://pi-hole.net/donate/"]
 
-!-	Miscellaneous Filters --------------------------------------------------
+!-	Miscellaneous Filters ----------
 
 newsela.com##.styles__recommendedContent___22lV6
 
@@ -662,4 +666,4 @@ www.dnsleaktest.com##[src="/assets/img/cute-box-image.png"]
 
 twitter.com##.r-zg41ew.r-1777fci.r-18u37iz.css-1dbjc4n
 
-!-----------------------------------------------------------------------------------------------------
+!--------------------
