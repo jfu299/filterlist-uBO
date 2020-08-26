@@ -6,7 +6,7 @@
 
 ! By: Justin Fu
 
-! Updated August 23, 2020
+! Updated August 26, 2020
 
 !--------------------
 
@@ -226,6 +226,8 @@ reddit.com##[id^="CommentAwardBadges--"]
 
 !-	Google Filter ----------
 
+!-- Google Drive
+
 drive.google.com##.Yb-Il-d-rc.Kk7lMc-QWPxkf-d.Yb-Il-d
 
 drive.google.com###\:75 > .a-S-x-j.a-s-tb-pa > .NtyuW.PEfnhb > .i6Fqyc
@@ -242,6 +244,8 @@ drive.google.com##.tb9Ntf
 
 drive.google.com###\:5d > .a-S-x-j.a-s-tb-pa > .PEfnhb
 
+!-- Google Docs
+
 docs.google.com##.companion-app-switcher-container
 
 docs.google.com##.goog-flat-button.goog-inline-block.docs-explore-widget-button
@@ -254,6 +258,8 @@ docs.google.com##.goog-inline-block.docs-navigation-tab-button.outline-refresh.d
 
 docs.google.com##.left-sidebar-container-animation.docs-ui-unprintable.left-sidebar-container
 
+!-- Gmail
+
 mail.google.com##.aj5.J-KU-Jg-Zc.J-KU-Jg
 
 mail.google.com##.Y5.YN.YM
@@ -264,7 +270,31 @@ mail.google.com##.YX.aZ6.akc
 
 mail.google.com##.aT5-aOt-I-Jp.brC-dA-I.aT5-aOt-I
 
+!-- Google Sites
+
 sites.google.com##.HB15Rb
+
+!-- Google Maps Mobile
+
+google.com##.ml-promotion-use-the-app-button.ml-promotion-yes-button.ml-promotion-action-button
+
+google.com##.ml-promotion-content-container
+
+google.com##.ml-promotion-nonlu-blocking-promo.ml-promotion-blocking-promo.ml-promotion-modal.ml-promotion-on-screen.ml-promotion
+
+google.com##.ml-searchbox-button-signed-out.ml-searchbox-button-right-side-button
+
+google.com##.ml-settings-app-menu-item
+
+google.com##.ml-fab-icon-mode.ml-button-fab.ml-button-my-location-fab.ml-button.ml-fab-inner
+
+google.com##.visible.ml-loc-disabled.ml-my-location-fab
+
+google.com##.ml-searchbox-button-signed-out.ml-searchbox-button-right-side-button
+
+google.com##.ml-fab-text-mode.ml-button-fab.ml-button-my-location-fab.ml-button.ml-fab-inner
+
+google.com##.ml-fab-outer
 
 !-	DuckDuckGo Filter ----------
 
@@ -343,6 +373,12 @@ instagram.com##.xkuux
 instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(2) > div.Igw0E.IwRSH.eGOV_._4EzTm:last-child > div.EcJQs
 
 instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(2) > div.Igw0E.IwRSH.eGOV_._4EzTm:last-child
+
+instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(3) > div.Igw0E.IwRSH.eGOV_._4EzTm:last-child > div.EcJQs
+
+instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(3) > div.Igw0E.IwRSH.eGOV_._4EzTm:last-child
+
+instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(3) > div.Igw0E.IwRSH.eGOV_._4EzTm:last-child
 
 !-	Quizlet Filter ----------
 
