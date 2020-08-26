@@ -1,4 +1,5 @@
-Custom Filter Lists for uBO (uBlock Origin)
+Filter Lists to filter out certain annoyances
+(Designed to be used with uBlock Origin)
 
 By: Justin Fu
 
