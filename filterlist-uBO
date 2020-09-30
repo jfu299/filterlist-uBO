@@ -6,7 +6,7 @@
 
 ! By: Justin Fu
 
-! Updated September 6, 2020
+! Updated September 29, 2020
 
 !--------------------
 
@@ -174,9 +174,9 @@ reddit.com##.TopNav-promoButton
 
 reddit.com###container > div.XPromoPopup.m-active
 
-www.reddit.com/#%23.promotedlink
+reddit.com/#%23.promotedlink
 
-www.reddit.com##.promotedlink
+reddit.com##.promotedlink
 
 ||redditstatic.com/recommended-link.*.js
 
@@ -224,6 +224,14 @@ reddit.com##.OuterBannerContainer
 
 reddit.com##[id^="CommentAwardBadges--"]
 
+reddit.com##.awardings-bar
+
+reddit.com##.scrollerItem:has-text(Top broadcast)
+
+||redd.it/*.m3u8^$xhr,domain=reddit.com
+
+||strapi.reddit.com^$xhr,domain=reddit.com
+
 !-	Google Filter ----------
 
 !-- Google Drive
@@ -243,6 +251,8 @@ drive.google.com##.U0FWac
 drive.google.com##.tb9Ntf
 
 drive.google.com###\:5d > .a-S-x-j.a-s-tb-pa > .PEfnhb
+
+drive.google.com##.UMrnmb-v3pZbf.ndfHFb-c4YZDc-FNFY6c-Hn6s1b-bBybbf
 
 !-- Google Docs
 
@@ -273,6 +283,8 @@ mail.google.com##.aT5-aOt-I-Jp.brC-dA-I.aT5-aOt-I
 !-- Google Sites
 
 sites.google.com##.HB15Rb
+
+meet.google.com##.RYvOkb.dj3AKc
 
 !-- Google Maps Mobile
 
@@ -334,6 +346,20 @@ duckduckgo.com##.js-onboarding-ed-teaser.onboarding-ed__arrow-teaser
 
 duckduckgo.com##.js-tag-item-link.tag-home__link
 
+duckduckgo.com##.header--text_promo
+
+duckduckgo.com##.tag-home__item
+
+duckduckgo.com##.js-onboarding-ed.onboarding-ed
+
+duckduckgo.com##.homepage--text_promo--link
+
+duckduckgo.com###content_homepage > .cw--c > .js-tag-home.no-js__hide.tag-home--slide.tag-home > .tag-home__wrapper > .tag-home__item
+
+duckduckgo.com##.js-site-wrapper.site-wrapper--home.site-wrapper > .js-onboarding-ed.onboarding-ed
+
+duckduckgo.com##.header--text_promo
+
 !-	Instagram Filter ----------
 
 instagram.com##.GZkEI.ccgHY._6E_wP.vboSt._8Rm4L
@@ -370,23 +396,13 @@ instagram.com##a[href="/accounts/login/?next=%2F&source=mobile_nav"] + button
 
 instagram.com##.xkuux
 
-www.instagram.com##._1-msl.VhasA.ABLKx.MFkQJ
+instagram.com##._1-msl.VhasA.ABLKx.MFkQJ
 
-www.instagram.com##.GZkEI.ccgHY.D_6tu.vboSt._8Rm4L
+instagram.com##.GZkEI.ccgHY.D_6tu.vboSt._8Rm4L
 
-instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(2) > div.Igw0E.IwRSH.eGOV_._4EzTm:last-child > div.EcJQs
+instagram.com##._1-msl.VhasA.ABLKx.MFkQJ
 
-instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(2) > div.Igw0E.IwRSH.eGOV_._4EzTm:last-child
-
-instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(3) > div.Igw0E.IwRSH.eGOV_._4EzTm:last-child > div.EcJQs
-
-instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(3) > div.Igw0E.IwRSH.eGOV_._4EzTm:last-child
-
-instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(3) > div.Igw0E.IwRSH.eGOV_._4EzTm:last-child
-
-instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(3) > div.EM8Od:first-child
-
-instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.uzKWK:nth-child(2) > section._1SP8R.M_qbh:first-child > div:last-child > div:first-child > div > div._8Rm4L.bq3Mi.D_6tu.ccgHY.l9Ww0:nth-child(3)
+instagram.com##.GZkEI.ccgHY.D_6tu.vboSt._8Rm4L
 
 !-	Quizlet Filter ----------
 
@@ -488,6 +504,36 @@ quizlet.com##.SiteBanner-padding
 
 quizlet.com##.SignupWallInline-overlay
 
+!-  IXL Filter  ----------
+
+ixl.com##.center.first-time-popover.ixl-modal-outer-container > .ixl-modal-mask
+
+ixl.com##.center.first-time-popover.ixl-modal-outer-container > .ixl-modal > .ixl-modal-container > .ixl-modal-inside > .ixl-modal-content
+
+ixl.com##.home-header-section.bg-img-section.members-section
+
+ixl.com###recommendations
+
+ixl.com##li.box-site-nav-tab:nth-of-type(1)
+
+ixl.com##li.box-site-nav-tab:nth-of-type(3)
+
+ixl.com##li.box-site-nav-tab:nth-of-type(4)
+
+ixl.com##.utility-links
+
+ixl.com##.recs-texture-background
+
+ixl.com###timersec
+
+ixl.com##th:nth-of-type(3)
+
+ixl.com##.take-a-break
+
+ixl.com##.smartscore-subheader
+
+ixl.com###ribbons
+
 !-	Quizizz Filter ----------
 
 quizizz.com##.modal-mask
@@ -508,117 +554,119 @@ quizizz.com##.players-list
 
 !-	Spark Notes Filter ----------
 
-www.sparknotes.com##.ad-container
+sparknotes.com##.ad-container
 
-www.sparknotes.com##.rect-container
+sparknotes.com##.rect-container
 
-www.sparknotes.com##.right_rail
+sparknotes.com##.right_rail
 
-www.sparknotes.com##.social-unit--interior.social-unit--desktop > .social-unit
+sparknotes.com##.social-unit--interior.social-unit--desktop > .social-unit
 
-www.sparknotes.com##.layout-wrapper-2018__column--right-rail.layout-wrapper-2018__column
+sparknotes.com##.layout-wrapper-2018__column--right-rail.layout-wrapper-2018__column
 
-www.sparknotes.com##.bn-purchase-module
+sparknotes.com##.bn-purchase-module
 
-www.sparknotes.com##.more-like-this
+sparknotes.com##.more-like-this
 
-www.sparknotes.com##.js-global-banner.global-banner
+sparknotes.com##.js-global-banner.global-banner
 
-www.sparknotes.com##li.ui-only.nav-item--secondary.nav-item:nth-of-type(2) > .js-link--sign-in.nav-link--secondary.nav-link
+sparknotes.com##li.ui-only.nav-item--secondary.nav-item:nth-of-type(2) > .js-link--sign-in.nav-link--secondary.nav-link
 
 !-	Shmoop Filter ----------
 
-www.shmoop.com##.txt-md-left.txt-center.bg-inner-pink.inner-contained.bg-gray-light.padding-top-4x.page-cta
+shmoop.com##.txt-md-left.txt-center.bg-inner-pink.inner-contained.bg-gray-light.padding-top-4x.page-cta
 
-||www.shmoop.com/pub/static/version1582920535/frontend/Shmoop/default/en_US/images/logo-blue.svg$image
+||shmoop.com/pub/static/version1582920535/frontend/Shmoop/default/en_US/images/logo-blue.svg$image
 
-www.shmoop.com##.md-up.footer-nav > div:nth-of-type(1) > .footer-logo > .pagebuilder-column-group > .pagebuilder-column > div > p > [href="/subscriptions/plans"]
+shmoop.com##.md-up.footer-nav > div:nth-of-type(1) > .footer-logo > .pagebuilder-column-group > .pagebuilder-column > div > p > [href="/subscriptions/plans"]
 
-www.shmoop.com##.md-up.footer-nav > div:nth-of-type(1) > .footer-logo > .pagebuilder-column-group
+shmoop.com##.md-up.footer-nav > div:nth-of-type(1) > .footer-logo > .pagebuilder-column-group
 
-www.shmoop.com##.test-no-ads
+shmoop.com##.test-no-ads
 
-www.shmoop.com##.account-links
+shmoop.com##.account-links
 
-www.shmoop.com##.page-bottom-cta
+shmoop.com##.page-bottom-cta
 
-www.shmoop.com##.newsletter.block
+shmoop.com##.newsletter.block
 
 !-	Britannica Filter ----------
 
-www.britannica.com##.pl-80.p-15
+britannica.com##.pl-80.p-15
 
-www.britannica.com##.grid-sm-ad-300
+britannica.com##.grid-sm-ad-300
 
-www.britannica.com###marketing-RIGHT_RAIL_MODULE
+britannica.com###marketing-RIGHT_RAIL_MODULE
 
-www.britannica.com##.marketing-content.marketing-RIGHT_RAIL_MODULE
+britannica.com##.marketing-content.marketing-RIGHT_RAIL_MODULE
 
 !-	Khan Academy Filter ----------
 
 ww.khanacademy.org##._104gogl7
 
-www.khanacademy.org##._pnujn8l
+khanacademy.org##._pnujn8l
 
-www.khanacademy.org##.above-header.urgent-wrapper
+khanacademy.org##.above-header.urgent-wrapper
 
-www.khanacademy.org##._mrzh6jy
+khanacademy.org##._mrzh6jy
 
-www.khanacademy.org##._1r6ejgs
+khanacademy.org##._1r6ejgs
 
-www.khanacademy.org##._1lfgscds
+khanacademy.org##._1lfgscds
 
-www.khanacademy.org##._1rh3umcd
+khanacademy.org##._1rh3umcd
 
-www.khanacademy.org##._19tdiqu
+khanacademy.org##._19tdiqu
 
-www.khanacademy.org##a._19ujcxk:nth-of-type(3) > svg > path
+khanacademy.org##a._19ujcxk:nth-of-type(3) > svg > path
 
-www.khanacademy.org##._1c07mee
+khanacademy.org##._1c07mee
 
-www.khanacademy.org##._gkt786u
+khanacademy.org##._gkt786u
 
-www.khanacademy.org##.show-label.soft-transition.more-questions
+khanacademy.org##.show-label.soft-transition.more-questions
 
-www.khanacademy.org##._rngbhz
+khanacademy.org##._rngbhz
 
 !-	EasyBib Filter ----------
 
-www.easybib.com##.fVprzo.styles__SideFrame-s1sdaikp-1
+easybib.com##.fVprzo.styles__SideFrame-s1sdaikp-1
 
-www.easybib.com##.hDmwjl.styles__SideView-s1sdaikp-2
+easybib.com##.hDmwjl.styles__SideView-s1sdaikp-2
 
-www.easybib.com##.fhROWi.styles__SideFrame-sc-1sdaikp-1
+easybib.com##.fhROWi.styles__SideFrame-sc-1sdaikp-1
 
-www.easybib.com##.kcDWRu.styles__SideView-sc-1sdaikp-2
+easybib.com##.kcDWRu.styles__SideView-sc-1sdaikp-2
 
-www.easybib.com##.hdsQen.sc-fjmCvl
+easybib.com##.hdsQen.sc-fjmCvl
 
-www.easybib.com##div.home-page:nth-of-type(4)
+easybib.com##div.home-page:nth-of-type(4)
 
 !-	News Filter ----------
 
-www.foxnews.com##.collection-trending.collection
+foxnews.com##.collection-trending.collection
 
-www.foxnews.com##.collection-radar.collection-multi.collection
+foxnews.com##.collection-radar.collection-multi.collection
 
-www.foxnews.com##.commenting-nation-promo
+foxnews.com##.commenting-nation-promo
 
-www.foxnews.com##.desktop.sidebar-primary.sidebar-article.sidebar
+foxnews.com##.desktop.sidebar-primary.sidebar-article.sidebar
 
-www.foxnews.com##.more-on-this
+foxnews.com##.more-on-this
 
-www.foxnews.com##[href="https://www.foxnews.com/apps-products"]www.foxnews.com###spcv_conversation
+foxnews.com##[href="https://foxnews.com/apps-products"]foxnews.com###spcv_conversation
+
+foxnews.com##[href="https://www.foxnews.com/apps-products"]www.foxnews.com###spcv_conversation
 
 news.google.com##.SbZred.Xw9d0
 
-www.politico.com##.is-masoned.shifty-content.predetermined.pos-beta.format-s.story-interrupt
+politico.com##.is-masoned.shifty-content.predetermined.pos-beta.format-s.story-interrupt
 
-www.washingtonpost.com###slug_leaderboard
+washingtonpost.com###slug_leaderboard
 
-www.washingtonpost.com##.flex-column.flex.hide-for-print.grid-item--cols-lg-4.mt-md-l.grid-item--cols-md-12.grid-item--cols-sm-12.grid-item
+washingtonpost.com##.flex-column.flex.hide-for-print.grid-item--cols-lg-4.mt-md-l.grid-item--cols-md-12.grid-item--cols-sm-12.grid-item
 
-www.nytimes.com##.css-16l7vy9
+nytimes.com##.css-16l7vy9
 
 !-	Greenwich Schools Filter ----------
 
@@ -662,7 +710,7 @@ schoology.greenwich.k12.ct.us##._pendo-launcher-badge-bottom-right_._pendo-launc
 
 schoology.greenwich.k12.ct.us##div.attachments-file:nth-of-type(1) > .attachments-file-name > .kami-link
 
-schoology.greenwich.k12.ct.us###home-feed-container
+!schoology.greenwich.k12.ct.us###home-feed-container
 
 schoology.greenwich.k12.ct.us##.util-directions-top-one-point-two-ctpIT.util-width-one-point-eight-1jZzx.util-height-one-point-eight-XPs3y.util-justify-content-center-1x8at.util-font-size-one-26ZPL.util-directions-right-point-two-3vkbs._3RmDr._1tpub.fioA9.tAI8z.USYsM.les2-._2L4PN._2JX1Q
 
@@ -682,9 +730,15 @@ newsela.com##.styles__recommendedContent___22lV6
 
 newsela.com##div.styles__toolTip___KQI75.styles__iconContainer___2sqc2:nth-of-type(2) > span > .styles__tooltipCircleButton___3OTeO.styles__iconOnly___3UL3x.styles__secondary___38Qfo.styles__rounded___2MZEv.styles__button___2mIfC
 
-www.dictionary.com##.e1su27ci0.css-kxkt50
+newsela.com##.header-module--announcement--23bPS
 
-www.symbolab.com##.print-hide.sidebar-content
+newsela.com##.header-module--visible--B9Y2A.header-module--Black--1rDnB.header-module--announcement_container--2BGeF
+
+newsela.com##.styles__bannerContainer___3_ZsG
+
+dictionary.com##.e1su27ci0.css-kxkt50
+
+symbolab.com##.print-hide.sidebar-content
 
 dcp.betterchinese.com###ext-element-469
 
@@ -692,26 +746,46 @@ dcp.betterchinese.com###ext-compOpenEventWindow-1
 
 dcp.betterchinese.com###ext-mask-2
 
-www.greenwichtime.com##.s2nFrameHost
+dcp.betterchinese.com###___sharetoclassroom_2
+
+||dcp.betterchinese.com/resources/images/LoginBG.png$image
+
+||*d*cp.betterchinese.com*$image
+
+greenwichtime.com##.s2nFrameHost
 
 my.noodletools.com###createPile > .modal-content > .modal-footer > button.btn-sm.btn-default.btn:nth-of-type(2)
 
-www.answers.com##.adhesion_dom.html.module
+answers.com##.adhesion_dom.html.module
 
-www.answers.com###right
+answers.com###right
 
 connvoters.com##body > center > table > tbody > tr > td:nth-of-type(1)
 
 mrwalach.com##.credit
 
-||www.dnsleaktest.com/assets/img/cute-box-image.png$image
+||dnsleaktest.com/assets/img/cute-box-image.png$image
 
-www.dnsleaktest.com##[src="/assets/img/cute-box-image.png"]
+dnsleaktest.com##[src="/assets/img/cute-box-image.png"]
 
 dnsleaktest.com###results > div.grid_12.results:first-child > div.cute-box:nth-child(3)
 
 dnsleaktest.com###results > div.grid_12.results:first-child > div.cute-box:nth-child(3) > a > img
 
 twitter.com##.r-zg41ew.r-1777fci.r-18u37iz.css-1dbjc4n
+
+github.com##.js-vote-banner.js-notice.f6.text-bold.text-white.p-3.flex-justify-between.width-full.d-flex
+
+github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-3.col-lg-3.col-md-3.col-12.team-left-column
+
+github.com##.flex-column.flex-auto.d-flex.mx-auto > .flex-auto
+
+flipgrid.com###giphyVideo
+
+icivics.org##.popup
+
+icivics.org##.popup_back
+
+act.org##.alert-dismissible.alert-success.alert
 
 !--------------------
