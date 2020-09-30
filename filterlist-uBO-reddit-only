@@ -5,7 +5,7 @@
 
 ! By: Justin Fu
 
-! Updated August 23, 2020
+! Updated September 29, 2020
 
 !--------------------
 
@@ -15,9 +15,9 @@ reddit.com##.TopNav-promoButton
 
 reddit.com###container > div.XPromoPopup.m-active
 
-www.reddit.com/#%23.promotedlink
+reddit.com/#%23.promotedlink
 
-www.reddit.com##.promotedlink
+reddit.com##.promotedlink
 
 ||redditstatic.com/recommended-link.*.js
 
@@ -64,5 +64,13 @@ reddit.com##h2:has-text(/^Trending Communities$/):upward(6)
 reddit.com##.OuterBannerContainer
 
 reddit.com##[id^="CommentAwardBadges--"]
+
+reddit.com##.awardings-bar
+
+reddit.com##.scrollerItem:has-text(Top broadcast)
+
+||redd.it/*.m3u8^$xhr,domain=reddit.com
+
+||strapi.reddit.com^$xhr,domain=reddit.com
 
 !--------------------
