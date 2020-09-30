@@ -5,7 +5,7 @@
 
 ! By: Justin Fu
 
-! Updated August 23, 2020
+! Updated September 29, 2020
 
 !--------------------
 
@@ -45,7 +45,7 @@ youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.yt
 !--- Add to queue Hover Overlay
 youtube.com###hover-overlays
 
-!---Youtube Miniplayer Button
+!--- Youtube Miniplayer Button
 youtube.com##.ytp-button.ytp-miniplayer-button
 
 !--- Youtube Previous and Next Buttons
