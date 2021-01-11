@@ -7,7 +7,7 @@
 
 ! By: Justin Fu
 
-! Updated September 29, 2020
+! Updated January 11, 2021
 
 !--------------------
 
@@ -92,6 +92,12 @@ m.youtube.com##.ytm-autonav-bar
 
 ##.ytp-pause-overlay
 
+!--- Share Button
+youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(1)
+
+!--- Subscribe Button
+youtube.com##.ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-destructive.ytd-button-renderer.style-scope
+
 !--- Mobile Youtube
 m.youtube.com###player-control-overlay > div.player-controls-content > div.player-controls-middle.center:nth-child(2) > button.icon-button:last-child
 
@@ -168,5 +174,55 @@ youtube.com###channel-subscription-promo-in-feed
 youtube.com###clarify-box
 
 youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
+
+youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
+
+youtube.com###right-arrow-button > .size-default.style-default.ytd-feed-filter-chip-bar-renderer.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-default.ytd-button-renderer.style-scope
+
+youtube.com###dialog
+
+||consent.google.com/$subdocument
+
+youtube.com##.size-default.style-overlay.yt-player-error-message-renderer.style-scope > .yt-button-renderer.style-scope.yt-simple-endpoint
+
+youtube.com##.ytp-autonav-toggle-button-container
+
+youtube.com###copyright > div
+
+youtube.com##div > .external-icon
+
+youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
+
+youtube.com###guide-content > .ytd-app.style-scope
+
+youtube.com###guide-wrapper
+
+youtube.com##.ytp-right-controls > button.ytp-button:nth-of-type(5)
+
+youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
+
+youtube.com##+js(set, ytInitialData.overlay.upsellDialogRenderer.isVisible, false)
+
+youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
+
+youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
+
+youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial
+
+m.youtube.com###dismissable:has-text(Buy or Rent)
+
+youtube.com###dismissable:has-text(Buy or Rent)
+
+youtube.com###sentiment
+
+youtube.com##.ytd-menu-navigation-item-renderer.style-scope.yt-simple-endpoint > .ytd-menu-navigation-item-renderer.style-scope
+
+youtube.com###voice-search-button
+
+youtube.com##ytd-compact-link-renderer.yt-multi-page-menu-section-renderer.style-scope:nth-of-type(4)
+
+youtube.com##ytd-compact-link-renderer.yt-multi-page-menu-section-renderer.style-scope:nth-of-type(5)
+
+youtube.com##ytd-compact-link-renderer.yt-multi-page-menu-section-renderer.style-scope:nth-of-type(6)
 
 !--------------------
