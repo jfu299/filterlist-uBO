@@ -7,7 +7,7 @@
 
 ! By: Justin Fu
 
-! Updated September 29, 2020
+! Updated January 11, 2021
 
 !--------------------
 
@@ -74,5 +74,23 @@ reddit.com##.scrollerItem:has-text(Top broadcast)
 ||redd.it/*.m3u8^$xhr,domain=reddit.com
 
 ||strapi.reddit.com^$xhr,domain=reddit.com
+
+reddit.com##a[href^="/rpan/"]>h3:has-text(/Top livestream|Top broadcast/):nth-ancestor(7)
+
+reddit.com##[id^="UserInfoTooltip"]
+
+||i.redd.it/snoovatar/
+
+reddit.com##span:has(a[href$="reddit.com/chat"])
+
+reddit.com##h1:has-text(/^Find people who want to chat$/):upward(1)
+
+reddit.com##button[id^=COIN_PURCHASE]
+
+reddit.com##.post:if(.PostHeader__promoted-flair)
+
+reddit.com##div[aria-role="presentation"]:style(display:none !important)
+
+reddit.com##.awarding-icon-container
 
 !--------------------
