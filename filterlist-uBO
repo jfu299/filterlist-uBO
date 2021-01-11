@@ -1,13 +1,12 @@
 ! Title: jfu299 Filterlist
 !      (Designed to work for uBlock Origin)
-! Includes youtube filter, reddit filter, and instagram filter in addition to other filters
 
-!    https://github.com/jfu299/filterlist-uBO/blob/master/README.md
+!    https://github.com/jfu299/filterlist-uBO
 !    https://raw.githubusercontent.com/jfu299/filterlist-uBO/master/filterlist-uBO
 
 ! By: Justin Fu
 
-! Updated November 7, 2020
+! Updated January 11, 2021
 
 !--------------------
 
@@ -92,6 +91,12 @@ m.youtube.com##.ytm-autonav-bar
 
 ##.ytp-pause-overlay
 
+!--- Share Button
+youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(1)
+
+!--- Subscribe Button
+youtube.com##.ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-destructive.ytd-button-renderer.style-scope
+
 !--- Mobile Youtube
 m.youtube.com###player-control-overlay > div.player-controls-content > div.player-controls-middle.center:nth-child(2) > button.icon-button:last-child
 
@@ -169,6 +174,56 @@ youtube.com###clarify-box
 
 youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
 
+youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
+
+youtube.com###right-arrow-button > .size-default.style-default.ytd-feed-filter-chip-bar-renderer.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-default.ytd-button-renderer.style-scope
+
+youtube.com###dialog
+
+||consent.google.com/$subdocument
+
+youtube.com##.size-default.style-overlay.yt-player-error-message-renderer.style-scope > .yt-button-renderer.style-scope.yt-simple-endpoint
+
+youtube.com##.ytp-autonav-toggle-button-container
+
+youtube.com###copyright > div
+
+youtube.com##div > .external-icon
+
+youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
+
+youtube.com###guide-content > .ytd-app.style-scope
+
+youtube.com###guide-wrapper
+
+youtube.com##.ytp-right-controls > button.ytp-button:nth-of-type(5)
+
+youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
+
+youtube.com##+js(set, ytInitialData.overlay.upsellDialogRenderer.isVisible, false)
+
+youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
+
+youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
+
+youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial
+
+m.youtube.com###dismissable:has-text(Buy or Rent)
+
+youtube.com###dismissable:has-text(Buy or Rent)
+
+youtube.com###sentiment
+
+youtube.com##.ytd-menu-navigation-item-renderer.style-scope.yt-simple-endpoint > .ytd-menu-navigation-item-renderer.style-scope
+
+youtube.com###voice-search-button
+
+youtube.com##ytd-compact-link-renderer.yt-multi-page-menu-section-renderer.style-scope:nth-of-type(4)
+
+youtube.com##ytd-compact-link-renderer.yt-multi-page-menu-section-renderer.style-scope:nth-of-type(5)
+
+youtube.com##ytd-compact-link-renderer.yt-multi-page-menu-section-renderer.style-scope:nth-of-type(6)
+
 !-	Reddit Filter ----------
 
 reddit.com##.TopNav-promoButton
@@ -233,6 +288,24 @@ reddit.com##.scrollerItem:has-text(Top broadcast)
 
 ||strapi.reddit.com^$xhr,domain=reddit.com
 
+reddit.com##a[href^="/rpan/"]>h3:has-text(/Top livestream|Top broadcast/):nth-ancestor(7)
+
+reddit.com##[id^="UserInfoTooltip"]
+
+||i.redd.it/snoovatar/
+
+reddit.com##span:has(a[href$="reddit.com/chat"])
+
+reddit.com##h1:has-text(/^Find people who want to chat$/):upward(1)
+
+reddit.com##button[id^=COIN_PURCHASE]
+
+reddit.com##.post:if(.PostHeader__promoted-flair)
+
+reddit.com##div[aria-role="presentation"]:style(display:none !important)
+
+reddit.com##.awarding-icon-container
+
 !-	Google Filter ----------
 
 !-- Google Drive
@@ -281,11 +354,21 @@ mail.google.com##.YX.aZ6.akc
 
 mail.google.com##.aT5-aOt-I-Jp.brC-dA-I.aT5-aOt-I
 
-!-- Google Sites
+mail.google.com##.TC
+
+mail.google.com##.t6.gb_8c.gb_Ee.gb_He
+
+mail.google.com##.zo
+
+!-- Google Sites and Google Meet
 
 sites.google.com##.HB15Rb
 
+meet.google.com##.XrLeg.QU4Gid.kCyAyd.UQuaGc.uArJ5e
+
 meet.google.com##.RYvOkb.dj3AKc
+
+meet.google.com##.ncMv2e.MvD9Jd
 
 !-- Google Maps Mobile
 
@@ -405,8 +488,27 @@ instagram.com##._1-msl.VhasA.ABLKx.MFkQJ
 
 instagram.com##.GZkEI.ccgHY.D_6tu.vboSt._8Rm4L
 
+instagram.com##.bR_3v
+
 !-	Quizlet Filter ----------
-! Quizlet Filter Work in Progress
+
+quizlet.com##.is-open.is-gray.UIModal-container.UIModal
+
+quizlet.com##.is-visible.is-included.UIModal-backdrop
+
+quizlet.com##.HurricaneBannerWrapper
+
+quizlet.com##.TeacherOnboardingChecklist-container.UIDiv
+
+quizlet.com##.LoggedInHomepageMerchBanner
+
+quizlet.com##.UIOverlayTrigger-target.is-Tooltip.is-Popover.SiteHeaderChiclet-tooltip.UILink--inverted.UILink
+
+quizlet.com##.SiteHeader-userDropdownItem-groupDiscount.SiteHeader-userDropdownItem
+
+quizlet.com##.SiteHeader-userDropdownItem-referral.SiteHeader-userDropdownItem
+
+quizlet.com##.SiteHeader-userDropdownItem-upgrade.SiteHeader-userDropdownItem
 
 !-  IXL Filter  ----------
 
@@ -628,6 +730,8 @@ pi.hole##.user-footer
 
 pi.hole##li:nth-of-type(14) > [href="https://pi-hole.net/donate/"]
 
+pi.hole##a[href^="queries.php"]:nth-of-type(2)
+
 !-	Miscellaneous Filters ----------
 
 newsela.com##.styles__recommendedContent___22lV6
@@ -643,10 +747,6 @@ newsela.com##.styles__bannerContainer___3_ZsG
 dictionary.com##.e1su27ci0.css-kxkt50
 
 symbolab.com##.print-hide.sidebar-content
-
-! ||dcp.betterchinese.com/resources/images/LoginBG.png$image
-
-! ||*d*cp.betterchinese.com*$image
 
 greenwichtime.com##.s2nFrameHost
 
@@ -683,5 +783,69 @@ icivics.org##.popup
 icivics.org##.popup_back
 
 act.org##.alert-dismissible.alert-success.alert
+
+upfront.scholastic.com###memberModal > .modal-dialog > .modal-content > .modal-header
+upfront.scholastic.com##.in.ng-scope.paywallModalElement.fade.modal
+upfront.scholastic.com##.in.fade.modal-backdrop
+
+kahoot.it##.fuzKXE.lobby-info__LobbyInfo-sc-17kumat-1
+kahoot.it##.hRSDXq.shadow-text__Wrapper-sc-1mgpgij-0
+kahoot.it##.hBzLma.spinner__Spinner-sc-1qd530l-0
+
+ipaddressguide.com##.text-center.col-md-3
+ipaddressguide.com##.text-center.col-md-3
+
+meetingsamer40.webex.com##.animation_top_to_bottom.firefoxTip.meet_popover.el-popover
+
+ixl.com##.box-show-prizes-msg.yui-panel-container
+
+nearpod.com##.bloqueMaskHellobar
+
+gpsearch.azurewebsites.net##.dWelcomeContent
+gpsearch.azurewebsites.net###dWelcome
+
+!-	Other Filters ----------
+
+10.10.10.10##li:nth-of-type(4) > [href="https://pi-hole.net/donate/"]
+
+10.10.10.10##div.text-center.row-centered.row:nth-of-type(1)
+
+10.10.10.10##.user-footer
+
+10.10.10.10##li:nth-of-type(14) > [href="https://pi-hole.net/donate/"]
+
+10.10.10.10##a[href^="queries.php"]:nth-of-type(2)
+
+youtube.com###dismissable[class*="video-renderer"]:has(.ytd-channel-name:has-text(SSSniperWolf))
+
+youtube.com###dismissable[class*="video-renderer"]:has(.ytd-channel-name:has-text(James Charles))
+
+m.youtube.com###dismissable[class*="video-renderer"]:has(.ytd-channel-name:has-text(SSSniperWolf))
+
+m.youtube.com###dismissable[class*="video-renderer"]:has(.ytd-channel-name:has-text(James Charles))
+
+youtube.com###dismissable:has-text(/SSSniperWolf/)
+
+youtube.com###dismissable:has-text(/James Charles/)
+
+m.youtube.com###dismissable:has-text(/SSSniperWolf/)
+
+m.youtube.com###dismissable:has-text(/James Charles/)
+
+youtube.com###dismissable:has-text(/ChilledCow|ManiacButcherGr|Tik Tok It|Tik Tok|The Tik tok Compilation Channel/)
+
+youtube.com###dismissable:has-text(/Cafe Music BGM channel/)
+
+youtube.com###dismissable:has-text(/Miracle Music/)
+
+youtube.com###dismissable:has-text(/Quiet Quest - Study Music/)
+
+youtube.com###dismissable:has-text(/Right Side Broadcasting Network/)
+
+mail.google.com###\:1 > .nH > .S4.oy8Mbf.nH.BltHke > .vy.S2.UI.Nr > .aZ6.tf.Nu > .ae4 > div > .TB.cf > tbody > .TD > .TC
+
+meet.google.com###ow3 > .T4LgNb > .kFwPee > div > .crqnQb > .pHsCke > .Jrb8ue > .lvE3se > .xGFNFf.e0UWKb > .XrLeg.QU4Gid.kCyAyd.UQuaGc.uArJ5e > .Fxmcue.l4V7wb
+
+mail.google.com##.TC
 
 !--------------------
