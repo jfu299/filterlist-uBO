@@ -6,7 +6,7 @@
 
 ! By: Justin Fu
 
-! Updated January 11, 2021
+! Updated January 18, 2021
 
 !--------------------
 
@@ -90,6 +90,12 @@ youtube.com##.watch-sidebar-head
 m.youtube.com##.ytm-autonav-bar
 
 ##.ytp-pause-overlay
+
+!--- Autoplay Popup
+
+youtube.com##.ytp-promotooltip-wrapper
+
+youtube.com##.ytp-promotooltip-container
 
 !--- Share Button
 youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(1)
@@ -805,47 +811,5 @@ gpsearch.azurewebsites.net##.dWelcomeContent
 gpsearch.azurewebsites.net###dWelcome
 
 !-	Other Filters ----------
-
-10.10.10.10##li:nth-of-type(4) > [href="https://pi-hole.net/donate/"]
-
-10.10.10.10##div.text-center.row-centered.row:nth-of-type(1)
-
-10.10.10.10##.user-footer
-
-10.10.10.10##li:nth-of-type(14) > [href="https://pi-hole.net/donate/"]
-
-10.10.10.10##a[href^="queries.php"]:nth-of-type(2)
-
-youtube.com###dismissable[class*="video-renderer"]:has(.ytd-channel-name:has-text(SSSniperWolf))
-
-youtube.com###dismissable[class*="video-renderer"]:has(.ytd-channel-name:has-text(James Charles))
-
-m.youtube.com###dismissable[class*="video-renderer"]:has(.ytd-channel-name:has-text(SSSniperWolf))
-
-m.youtube.com###dismissable[class*="video-renderer"]:has(.ytd-channel-name:has-text(James Charles))
-
-youtube.com###dismissable:has-text(/SSSniperWolf/)
-
-youtube.com###dismissable:has-text(/James Charles/)
-
-m.youtube.com###dismissable:has-text(/SSSniperWolf/)
-
-m.youtube.com###dismissable:has-text(/James Charles/)
-
-youtube.com###dismissable:has-text(/ChilledCow|ManiacButcherGr|Tik Tok It|Tik Tok|The Tik tok Compilation Channel/)
-
-youtube.com###dismissable:has-text(/Cafe Music BGM channel/)
-
-youtube.com###dismissable:has-text(/Miracle Music/)
-
-youtube.com###dismissable:has-text(/Quiet Quest - Study Music/)
-
-youtube.com###dismissable:has-text(/Right Side Broadcasting Network/)
-
-mail.google.com###\:1 > .nH > .S4.oy8Mbf.nH.BltHke > .vy.S2.UI.Nr > .aZ6.tf.Nu > .ae4 > div > .TB.cf > tbody > .TD > .TC
-
-meet.google.com###ow3 > .T4LgNb > .kFwPee > div > .crqnQb > .pHsCke > .Jrb8ue > .lvE3se > .xGFNFf.e0UWKb > .XrLeg.QU4Gid.kCyAyd.UQuaGc.uArJ5e > .Fxmcue.l4V7wb
-
-mail.google.com##.TC
 
 !--------------------
