@@ -92,6 +92,12 @@ m.youtube.com##.ytm-autonav-bar
 
 ##.ytp-pause-overlay
 
+!--- Autoplay Popup
+
+youtube.com##.ytp-promotooltip-wrapper
+
+youtube.com##.ytp-promotooltip-container
+
 !--- Share Button
 youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(1)
 
